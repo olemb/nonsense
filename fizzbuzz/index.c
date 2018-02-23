@@ -2,7 +2,7 @@
 
 void main()
 {
-  char *fizzed[4] = {NULL, "Fizz", "Buzz", "Fizzbuzz"};
+  char *fizzed[4] = {NULL, "Fizz", "Buzz", "FizzBuzz"};
   int i;
 
   for(i = 1; i <= 100; i++) {

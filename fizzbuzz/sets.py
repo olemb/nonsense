@@ -4,11 +4,10 @@ fizzbuzz = fizz & buzz
 
 for i in range(1, 101):
     if i in fizzbuzz:
-        print('Fizzbuzz')
+        print('FizzBuzz')
     elif i in fizz:
         print('Fizz')
     elif i in buzz:
         print('Buzz')
     else:
         print(i)
-

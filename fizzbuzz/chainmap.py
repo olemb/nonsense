@@ -16,7 +16,7 @@ class FizzerBuzzer(object):
         else:
             raise KeyError
 
-chainmap = ChainMap(FizzerBuzzer(15, 'Fizzbuzz'),
+chainmap = ChainMap(FizzerBuzzer(15, 'FizzBuzz'),
                     FizzerBuzzer(3, 'Fizz'),
                     FizzerBuzzer(5, 'Buzz'),
                     Numberer())

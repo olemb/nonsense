@@ -3,7 +3,7 @@ buzz = 5
 
 for i in range(1, 101):
     if fizz == buzz == 1:
-        print('Fizzbuzz')
+        print('FizzBuzz')
     elif fizz == 1:
         print('Fizz')
     elif buzz == 1:

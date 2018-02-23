@@ -8,7 +8,7 @@ def buzz(i):
 
 def fizzbuzz(i):
     if fizz(i) and buzz(i):
-        return 'Fizzbuzz'
+        return 'FizzBuzz'
 
 for i in range(1, 101):
     print(fizzbuzz(i) or fizz(i) or buzz(i) or i)

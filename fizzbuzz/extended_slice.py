@@ -4,7 +4,7 @@ buzz = set(numbers[5-1::5])
 
 for i in numbers:
     if i in fizz and i in buzz:
-        print('Fizzbuzz')
+        print('FizzBuzz')
     elif i in fizz:
         print('Fizz')
     elif i in buzz:

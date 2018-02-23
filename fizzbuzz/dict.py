@@ -1,7 +1,7 @@
 buzzed = {
     (True, False): 'Fizz',
     (False, True): 'Buzz',
-    (True, True): 'Fizzbuzz',
+    (True, True): 'FizzBuzz',
 }
 
 for i in range(1, 101):
