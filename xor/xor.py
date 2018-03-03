@@ -12,10 +12,10 @@ def xor_compare(a, b):
 
 def xor_lookup_dict(a, b):
     return {
-        (0, 0): False,
-        (0, 1): True,
-        (1, 0): True,
-        (1, 1): False,
+        (0, 0): 0,
+        (0, 1): 1,
+        (1, 0): 1,
+        (1, 1): 0,
         }[(a, b)]
 
 
