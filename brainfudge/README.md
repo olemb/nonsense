@@ -1,3 +1,5 @@
-# Implementations of the Brainf*ck Language
+# Implementations of the Brainfudge Language
 
-I've decided to rename it Brainfudge here to keep things family friendly.
+Also known as Brainf*ck. I've decided to rename it Brainfudge here to
+keep swearing down a bit.
+
