@@ -1,7 +1,3 @@
-def xor_operator(a, b):
-    return a ^ b
-
-
 def xor_mod(a, b):
     return (a + b) % 2
 
