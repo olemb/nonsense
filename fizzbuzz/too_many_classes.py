@@ -8,7 +8,7 @@ class NoBuzz(BaseBuzz):
 
     def __add__(self, other):
         return other
-    
+
 
 class ValueBuzz(BaseBuzz):
     pass
