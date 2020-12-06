@@ -5,7 +5,7 @@ Spam:
 ```
 >>> from spam import spam
 >>> spam, spam, eggs and spam
-(spam(), spam(), spam()) 
+(spam(), spam(), spam())
 
 >>> spam('spam').eggs.['and'].spam
 spam()

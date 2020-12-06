@@ -4,7 +4,7 @@ Spam, spam, spam.
 Spam::
 
     >>> spam, spam, eggs and spam
-    (spam(), spam(), spam()) 
+    (spam(), spam(), spam())
 """
 
 class SpamError(Exception):

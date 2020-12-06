@@ -32,7 +32,7 @@ def xor_sum(a, b):
 
 
 def xor_substring(a, b):
-    return int('{}{}'.format(a, b) in "10 01")
+    return int(f'{a}{b}' in "10 01")
 
 
 def xor_array(a, b):
@@ -65,9 +65,9 @@ def test_function(xor):
 def test_all():
     for func in find_functions():
         if test_function(func):
-            print('OK: {}()'.format(func.__name__))
+            print(f'OK: {func.__name__}()')
         else:
-            print('FAILED: {}()'.format(func.__name__))
+            print(f'FAILED: {func.__name__}()')
 
 
 test_all()

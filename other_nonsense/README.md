@@ -1,4 +1,4 @@
 # Other Nonsense
 
-Why do things easy when you can use advanced language features for no
+Why do things the easy whay when you can use advanced language features for no
 reason?
